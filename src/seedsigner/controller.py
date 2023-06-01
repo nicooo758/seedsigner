@@ -238,6 +238,7 @@ class Controller(Singleton):
                     self.psbt_seed = None
                 
                 print(f"back_stack: {self.back_stack}")
+                print ("Hello")
 
                 try:
                     print(f"Executing {next_destination}")
